@@ -28,7 +28,7 @@
 // Explanation
 // Example case 1.
 // For the given array [1, 2, 5], there are 7 non-empty subsequences out of which there are 4 alternating subsequences. These will be {[1], [2], [5], [1, 5]}. The alternating subsequence [1, 5] will have the largest sum i.e 6.
-
+//Problem Code:CHEFALT
 #include<iostream>
 
 using namespace std;
