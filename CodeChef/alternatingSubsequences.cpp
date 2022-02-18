@@ -58,4 +58,5 @@ int main(){
         }
         subsequence(A, N);
     }
+    return 0;
 }
