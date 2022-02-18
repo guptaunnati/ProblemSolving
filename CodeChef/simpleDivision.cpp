@@ -40,3 +40,22 @@
 // Testcase 1: We want to count the number of integers which are less than or equal to X = 10 and divisible by Y = 3. The only integers in the array which fit both these criteria are A2 = 6, A4 = 3 and A5 = 9. Since there are three of them, the answer is 3.
 
 // Testcase 2: We want to count the number of integers which are less than or equal to X = 10 and divisible by Y = 10. No integer in the array fits both the criteria. Since there are no valid integers, the answer is 0.
+#include<iostream>
+using namespace std;
+int main(){
+    int T; 
+    cin>>T;
+    for(int i=0; i<T; i++){
+        int N, X, Y;
+        cin>>N>>X>>Y;
+        int A[N];
+        int count=0;
+        for(int j=0; j<N; j++){
+            cin>>A[j];
+            if(A[j]<=X &&A[j]%Y==0)
+                count++;
+        }
+        cout<<count<<endl;
+    }
+    
+}
